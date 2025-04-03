@@ -36,7 +36,7 @@ class Request(threading.Thread):
 			print("\n\nFound the flag on: ", IP + BASE_URL + self.url)
 
 			flag = requests.get(IP + BASE_URL + self.url + "README")
-			print(flag.content, "\n")
+			print(flag.content.decode(), "\n")
 			
 			exit(0)
 
