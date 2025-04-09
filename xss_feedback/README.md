@@ -1,4 +1,4 @@
-#  
+# bypassable xss filter  
 
 ## How We Found It
 there is a page to leave a feedback at the bottom of the home page.
